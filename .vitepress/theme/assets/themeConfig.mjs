@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "upbingun 的博客",
     // 站点描述
-    description: "Hello World",
+    description: "Blogs by upbingun: 分享一些奇奇怪怪的东西",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://upbingun.github.io",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "upbingun",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "upbingun@163.com",
+      link: "https://upbingun",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "萌ICP备20255072号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2025-10-24",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -60,15 +60,15 @@ export const themeConfig = {
           href: "https://mirrors.sustech.edu.cn",
         },
       ],
-      // HarmonyOS font
-      [
-        "link",
-        {
-          crossorigin: "anonymous",
-          rel: "stylesheet",
-          href: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css",
-        },
-      ],
+      // // HarmonyOS font
+      // [
+      //   "link",
+      //   {
+      //     crossorigin: "anonymous",
+      //     rel: "stylesheet",
+      //     href: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css",
+      //   },
+      // ],
       [
         "link",
         {
@@ -152,11 +152,11 @@ export const themeConfig = {
           name: "主站",
           url: "/",
         },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
+        // {
+        //   icon: "/images/logo/logo.webp",
+        //   name: "博客镜像站",
+        //   url: "https://blog-backup.imsyy.top/",
+        // },
       ],
     },
     {
@@ -239,28 +239,28 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:upbingun@163.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://www.github.com/upbingun/",
       },
-      {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
-      },
+      // {
+      //   icon: "telegram",
+      //   link: "https://t.me/bottom_user",
+      // },
       {
         icon: "bilibili",
         link: "https://space.bilibili.com/98544142",
       },
-      {
-        icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
-      },
-      {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
-      },
+      // {
+      //   icon: "qq",
+      //   link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+      // },
+      // {
+      //   icon: "twitter-x",
+      //   link: "https://twitter.com/upbingun",
+      // },
     ],
     // sitemap
     sitemap: [
@@ -276,10 +276,8 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
+          { text: "Home", link: "https://github.com/upbingun/", newTab: true },
+          { text: "Linegros", link: "https://github.com/SweetPeach-Games/Linegros", newTab: true },
         ],
       },
       {
@@ -302,12 +300,10 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          
           {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            text: "API调用",
+            link: "mailto:upbingun@163.com",
             newTab: true,
           },
         ],
@@ -342,7 +338,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "你们好💀小朋友💀，我是upbingun💀，害怕的人已经不敢看这么奇怪的文章了😈！",
     },
     // 目录
     toc: {
@@ -358,7 +354,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: "2026-02-17",
       },
     },
     // 站点数据
@@ -380,7 +376,7 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
     url: "https://api-meting.example.com",
     // id
@@ -399,7 +395,7 @@ export const themeConfig = {
   },
   // 打赏
   rewardData: {
-    enable: true,
+    enable: false,
     // 微信二维码
     wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
     // 支付宝二维码
