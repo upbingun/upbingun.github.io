@@ -43,7 +43,7 @@ references:
 这说明按照我的思路必须要获取这个网页本身才能得到这个`data-id`。这未免成本有点高。我在这里不做演示了，我认为总体思路可以获取源代码并提取这一字段然后扒出来。我只在这里演示获取文章内容了。<br>
 但是我直接请求新闻列表的时候，发现只有第一页，没有余下的那几页，`r`的值貌似不影响页数。
 ### 新闻列表API的获取
-我去网页上监测网络活动看看网页是怎么获取新闻列表的。在[m.ithome.com](m.ithome.com)上抓包，抓到`
+我去网页上监测网络活动看看网页是怎么获取新闻列表的。在[m.ithome.com](https://m.ithome.com/)上抓包，抓到`
 https://m.ithome.com/api/news/newslistpageget?Tag=&ot=1761353613000&page=0&hitCountAuthority=false`这个列表，内容为：
 ```json
 {Success: 1,…}
