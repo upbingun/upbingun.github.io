@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>upbingun 的博客</title>
+        <link>https://upbingun.github.io</link>
+        <description>Blogs by upbingun: 分享一些奇奇怪怪的东西</description>
+        <lastBuildDate>Sat, 25 Oct 2025 04:25:02 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>upbingun</generator>
+        <language>zh</language>
+        <copyright>Copyright © 2020-present upbingun</copyright>
+        <item>
+            <title><![CDATA[IT之家新闻API以及实战]]></title>
+            <link>https://upbingun.github.io/posts/ithome</link>
+            <guid>https://upbingun.github.io/posts/ithome</guid>
+            <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用IT之家的API并利用Python进行新闻打印。]]></description>
+            <author>upbingun@163.com (upbingun)</author>
+        </item>
+    </channel>
+</rss>
