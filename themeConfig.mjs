@@ -60,15 +60,15 @@ export const themeConfig = {
           href: "https://mirrors.sustech.edu.cn",
         },
       ],
-      // // HarmonyOS font
-      // [
-      //   "link",
-      //   {
-      //     crossorigin: "anonymous",
-      //     rel: "stylesheet",
-      //     href: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css",
-      //   },
-      // ],
+      // HarmonyOS font
+      [
+        "link",
+        {
+          crossorigin: "anonymous",
+          rel: "stylesheet",
+          href: "https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css",
+        },
+      ],
       [
         "link",
         {
